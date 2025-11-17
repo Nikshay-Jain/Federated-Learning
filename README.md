@@ -1,4 +1,4 @@
-# 🎯 Federated Learning with mpi4py
+# 🎯 Distributed Learning with mpi4py
 _A Python-based distributed machine learning assignment using MPI for parallel computation._
 
 ## ✨ Features
@@ -22,19 +22,8 @@ pip install mpi4py
 ```
 
 ## 🛠️ Usage
-
-1. **Launch Jupyter Notebook (recommended):**
-    ```bash
-    pip install notebook
-    jupyter notebook ee6180-assignment-3-mm21b044-ee21b144.ipynb
-    ```
-
-2. **Or run distributed code with MPI:**
-    ```bash
-    mpirun -np 4 python path_to_script.py
-    ```
-    *(You may extract Python code from the notebook or adapt cells as scripts)*
-
----
-
-**Course Assignment**: EE6180 Computational Photography, IIT Madras
+**Launch Jupyter Notebook (recommended):**
+```bash
+pip install notebook
+jupyter notebook ee6180-assignment-3-mm21b044-ee21b144.ipynb
+```
